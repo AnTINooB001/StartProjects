@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#define WRONG true
 class BTree
 {
 private:
@@ -48,7 +47,6 @@ public:
 
 int main()
 {
-    std::setlocale(LC_ALL, "ru");
     BTree tree;
     try
     {
